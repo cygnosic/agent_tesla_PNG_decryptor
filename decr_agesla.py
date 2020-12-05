@@ -1,7 +1,7 @@
 import png
 import struct
  
-filename = "xyz.png"
+filename = "image_decrypted_in_memorybymalware.png"
 #Image_load
 png_data = png.Reader(filename=filename).read()
 png_img_data = list(png_data[2])
